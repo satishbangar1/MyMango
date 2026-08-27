@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/FrontEnd/">
+    <Project Path="MyMango.Web/MyMango.Web.csproj" />
+  </Folder>
+  <Folder Name="/Gateway/" />
+  <Folder Name="/Integration/" />
+  <Folder Name="/Services/">
+    <Project Path="MyMango.Services.CouponAPI/MyMango.Services.CouponAPI.csproj" />
+  </Folder>
+</Solution>
