@@ -24,7 +24,7 @@ namespace MyMango.Web.Service
         {
             try
             {
-                HttpClient client = _httpClientFactory.CreateClient("MangoAPI");
+                HttpClient client = _httpClientFactory.CreateClient("MangoAPI1");
                 HttpRequestMessage message = new();
                 if (requestDto.ContentType == MyMango.Web.Utility.SD.ContentType.MultipartFormData)
                 {
